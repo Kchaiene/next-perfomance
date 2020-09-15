@@ -1,5 +1,5 @@
 const withPlugins = require('next-compose-plugins');
-const withOffline = require('next-offline');
+// const withOffline = require('next-offline');
 // const withLess = require('@zeit/next-less');
 // const withCSS = require('@zeit/next-css');
 // const withBundleAnalyzer = require('@next/bundle-analyzer')({
@@ -30,3 +30,5 @@ module.exports = nextConfig;
 
 
 
+
+// "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
